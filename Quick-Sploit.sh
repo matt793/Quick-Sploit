@@ -1,3 +1,3 @@
 #!/usr/bin/sh
 
-./Quick-Sploit.py
+Quick-Sploit.py
